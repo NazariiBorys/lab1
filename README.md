@@ -14,10 +14,13 @@ This is a simple Flask project using the Waitress server. The project includes a
    ```bash
    git clone <repository_url>
 3. Activate the virtual environment:
+   ```bash
    pipenv shell
 4. Install waitress:
+   ```bash
    pipenv install waitress
 5. Run the Flask app with the Waitress server:
+   ```bash
    python main.py
 6. Open your browser and go to http://localhost:5000/api/v1/hello-world-4 to see the "Hello World 4" response.
 
